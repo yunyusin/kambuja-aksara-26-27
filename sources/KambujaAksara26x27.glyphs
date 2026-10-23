@@ -2746,6 +2746,9 @@ lookup repos_cons_vann_3 {
 	pos [uni1787] @conj.cons.l1 [@conj.cons.l1.001 @conj.cons.l2.002] [@conj.cons.l1.001 @conj.cons.l3.002] [@vannayutti uni17C6]' <0 100 0 0>; 
 	pos @cons_van_y_p150 @conj.cons.l1 [@conj.cons.l1.001 @conj.cons.l2.002] [@conj.cons.l1.001 @conj.cons.l3.002] [@vannayutti uni17C6]' <0 150 0 0>; 
 
+
+	pos [@vannayutti uni17C6] [@vannayutti uni17C6]' <0 200 0 0>;
+	pos @vannayutti [uni17BB uni17BC uni17BD] [uni17C6]' <0 200 0 0>;
 } repos_cons_vann_3;
 
 lookup repos_cons_vann_4 {
@@ -2768,8 +2771,9 @@ lookup repos_cons_vann_4 {
 	pos [uni17C9 uni17CB] [uni17B7 uni17B8 uni17BE uni17B9 uni17BA]' <0 200 0 0>;
 	pos [uni17CA uni17D1] [uni17B7 uni17B8 uni17BE]' <-50 200 0 0>;
 	pos [uni17CA uni17D1] [uni17B9 uni17BA]' <0 200 0 0>;
-	pos [uni17CA uni17D1] [uni17C6]' <0 150 0 0>;
-	pos [uni17CA uni17D1] [uni17BB uni17BC uni17BC] [uni17C6]' <0 150 0 0>;
+	pos [uni17C6 uni17C9 uni17CB uni17CC uni17CD uni17CE uni17CF uni17D0] [uni17BB uni17BC uni17BD] [uni17C6]' <0 200 0 0>;
+	pos [uni17C6 uni17C9 uni17CB uni17CC uni17CD uni17CE uni17CF uni17D0] [uni17C6 uni17C9 uni17CB uni17CC uni17CD uni17CE uni17CF uni17D0]' <200 0 0 0>;
+	pos [uni17CC uni17CD uni17CE uni17CF uni17D0]' [uni17B7 uni17B8 uni17B9 uni17BA uni17BE uni17BF uni17BF.l1 uni17BF.l2 uni17BF.l3 uni17BF.a uni17BF.a.l1 uni17BF.a.l2 uni17BF.a.l3] <350 0 0 0>;
 
 	pos uni25CC [uni17B6] [@vannayutti uni17C6]' <100 0 0 0>;
     pos uni25CC [uni17B7] [@vannayutti uni17C6]' <100 200 0 0>;
@@ -25758,7 +25762,7 @@ unicode = 6089;
 },
 {
 glyphname = uni17CA;
-lastChange = "2026-06-25 00:15:13 +0000";
+lastChange = "2026-10-23 08:10:15 +0000";
 layers = (
 {
 layerId = m01;
